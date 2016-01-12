@@ -23,7 +23,7 @@
 }
 
 .c-grid {
-    box-shadow: 2px 2px 5px #888888;
+    /*box-shadow: 2px 2px 5px #888888;*/
     height: inherit;
     background-color: #61829E;
 }
@@ -56,7 +56,7 @@
 .c-week-day {
     width: 14.28%;
     height: 10.38%;
-    background-color: rgb(145, 172, 203);
+    background-color: rgba(22, 154, 142, 0.96);
     color: white;
     float: left;
     text-align: center;
@@ -92,11 +92,11 @@
 }
 
 .c-today {
-    background-color: #D8EAF1;
+    background-color: rgba(39, 165, 146, 0.89);
 }
 
 .c-event {
-    background-color: rgb(166, 166, 166);
+    background-color: rgba(103, 64, 134, 0.86);
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -112,13 +112,13 @@
     height: inherit;
     width: 49%;
     float: left;
-    box-shadow: 2px 2px 5px #888888;
+    /*box-shadow: 2px 2px 5px #888888;*/
 }
 
 .c-grid-title {
     font-weight: bold;
     float: left;
-    background-color: rgb(112, 145, 183);
+    background-color: rgba(142, 16, 16, 0.94);
     color: white;
 }
 
@@ -127,7 +127,7 @@
     height: 12%;
     text-align: center;
     font-weight: bold;
-    background-color: rgb(135, 155, 188);
+    background-color: rgba(142, 16, 16, 0.94);
     color: white;
 }
 
@@ -143,13 +143,14 @@
 }
 
 .c-event-item > .title {
+    font-size: 12px;
     font-weight: bold;
 }
 
 .c-event-item > div {
     text-overflow: ellipsis;
     width: inherit;
-    overflow: hidden;
+    overflow: visible;
     white-space: nowrap;
 }
 
@@ -159,7 +160,7 @@
 }
 
 .c-event-over {
-    background-color: lightgray;
+    background-color: rgb(150, 101, 190);
     font-weight: bold;
     color: black;
 }
