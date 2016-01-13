@@ -141,7 +141,7 @@
             for (var i = 0; i < settings.events.length; i++) {
                 var d = settings.events[i].datetime;
                 if ((d.getMonth()) == dMonth && d.getFullYear() == dYear) {
-                    var date = lpad(d.getDate(), 2) + '/' + (lpad(d.getMonth(), 2) + 1) + ' ' + lpad(d.getHours(), 2) + ':' + lpad(d.getMinutes(), 2);
+                    var date = lpad(d.getDate(), 2) + ' - ';
                     var item = $('<div/>').addClass('c-event-item');
                     var title = $('<div/>').addClass('title').html(date + '  ' + settings.events[i].title + '<br/>');
                     var description = $('<div/>').addClass('description').html(settings.events[i].description + '<br/>');
